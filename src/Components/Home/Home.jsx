@@ -1,4 +1,3 @@
-import React from 'react'
 import Doctor1 from '../../assets/Doctor1.png'
 import Doctor2 from '../../assets/Doctor2.png'
 import Doctor3 from '../../assets/Doctor3.png'
@@ -15,11 +14,11 @@ import Feature6 from '../../assets/Feature6.png'
 import Feature7 from '../../assets/Feature7.png'
 import Feature8 from '../../assets/Feature8.png'
 import Feature9 from '../../assets/Feature9.png'
-import vector1 from '../../assets/vector1.png'
-import vector3 from '../../assets/vector3.png'
-import vector4 from '../../assets/vector4.png'
-import vector5 from '../../assets/vector5.png'
-import vector6 from '../../assets/vector6.png'
+import Vector1 from '../../assets/Vector1.png'
+import Vector3 from '../../assets/Vector3.png'
+import Vector4 from '../../assets/Vector4.png'
+import Vector5 from '../../assets/Vector5.png'
+import Vector6 from '../../assets/Vector6.png'
 import Person1 from '../../assets/Person1.jpg'
 import Person2 from '../../assets/Person2.png'
 import Person3 from '../../assets/Person3.png'
@@ -171,7 +170,7 @@ function Home() {
 
                         <div className='w-[40vw] h-[50vh] relative'>
                             <img className='ml-10 '
-                                src={vector1} />
+                                src={Vector1} />
 
                             <div className='items-center bg-white w-[20vw] h-[12vh] rounded-xl absolute top-15 left-50'>
                                 <div className='flex p-3 space-x-5 '>
@@ -232,7 +231,7 @@ function Home() {
 
                         <div className='w-[40vw] h-[50vh] relative'>
                             <img className='ml-10 -rotate-225'
-                                src={vector1} />
+                                src={Vector1} />
 
                             <div className='items-center bg-white w-[25vw] h-auto rounded-xl absolute top-2 left-55 p-4'>
                                 <div className='flex border-b-2 border-gray-600 justify-evenly p-2'>
@@ -308,7 +307,7 @@ function Home() {
 
                         <div className='w-[40vw] h-[50vh] relative'>
                             <img className='ml-10 '
-                                src={vector4} />
+                                src={Vector4} />
 
                             <div className='items-center bg-white w-[22vw] h-[20vh] rounded-xl absolute top-8 -left-20 p-2'>
                                 <div className='flex space-x-3 items-center'>
@@ -367,7 +366,7 @@ function Home() {
 
                         <div className='w-[40vw] h-[50vh] relative'>
                             <img className='ml-10 '
-                                src={vector5} />
+                                src={Vector5} />
 
                             <div className='items-center bg-white w-[22vw] h-[16vh] rounded-xl absolute top-15 left-50'>
                                 <div className='p-4'>
@@ -404,7 +403,7 @@ function Home() {
 
                         <div className='w-[40vw] h-[50vh] relative'>
                             <img className='ml-10 '
-                                src={vector6} />
+                                src={Vector6} />
 
                             <div className='items-center bg-white w-[22vw] h-[20vh] rounded-xl absolute top-8 -left-20 p-2'>
                                 <div className='flex space-x-3 items-center'>
@@ -473,6 +472,7 @@ function Home() {
 
             </div>
 
+            {/* Join */}
             <div className='w-full bg-[#FFF6DD] p-8'>
                 <p className='text-center text-4xl text-green-800 font-bold'>Join Our Circle of Care</p>
                 <p className='text-gray-700 text-[18px] text-center mt-2'>Becoming a part of Amrutam is simple</p>
@@ -497,7 +497,7 @@ function Home() {
                         </div>
                     </div>
                     <div className='w-[45vw] h-[65vh] relative'>
-                        <img src={vector3} className='ml-5' />
+                        <img src={Vector3} className='ml-5' />
                         <img className='absolute top-15 left-12'
                             src={Group} />
 
@@ -506,6 +506,7 @@ function Home() {
 
             </div>
 
+            {/* Points */}
             <div className='w-full bg-[#FFF6DD] p-8'>
                 <div className=' flex justify-center'>
                     <div className='flex space-x-7'>
