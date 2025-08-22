@@ -33,9 +33,9 @@ import Frame2 from '../../assets/Frame2.png'
 import Frame3 from '../../assets/Frame3.png'
 import FrameMode from '../../assets/FrameMode.svg'
 import Group from '../../assets/Group.png'
-import Iphone15 from '../../assets/Iphone15.png'
-import Iphone15A from '../../assets/Iphone15A.png'
-import Iphone15B from '../../assets/Iphone15B.png'
+import IPhone15 from '../../assets/IPhone15.png'
+import IPhone15A from '../../assets/IPhone15A.png'
+import IPhone15B from '../../assets/IPhone15B.png'
 import Star from '../../assets/Star.png'
 import ReviewProfile from '../../assets/ReviewProfile.png'
 
@@ -517,25 +517,26 @@ function Home() {
                 </div>
             </div>
 
+            {/* Practice */}
             <div className='w-full bg-[#FFF6DD] p-3'>
                 <div className='flex justify-center'>
                     <div className='flex p-4 gap-10'>
                         <div className='w-[25vw] space-y-4'>
                             <p className='text-green-800 text-[22px] font-bold text-center'>Value Your Practice</p>
                             <div className='flex justify-center'>
-                                <img src={Iphone15} className='w-[216px] h-[435px]' />
+                                <img src={IPhone15} className='w-[216px] h-[435px]' />
                             </div>
                         </div>
                         <div className='w-[25vw] space-y-4'>
                             <div className='flex justify-center'>
-                                <img src={Iphone15A} className='w-[216px] h-[435px]' />
+                                <img src={IPhone15A} className='w-[216px] h-[435px]' />
                             </div>
                             <p className='text-green-800 text-[22px] font-bold text-center'>Today's Healing Journey</p>
                         </div>
                         <div className='w-[25vw] space-y-4'>
                             <p className='text-green-800 text-[22px] font-bold text-center'>Congrualations Details</p>
                             <div className='flex justify-center'>
-                                <img src={Iphone15B} className='w-[216px] h-[435px]' />
+                                <img src={IPhone15B} className='w-[216px] h-[435px]' />
                             </div>
 
                         </div>
@@ -547,6 +548,7 @@ function Home() {
 
             </div>
 
+            {/* review */}
             <div className='w-full bg-[#FFF6DD] p-3'>
                 <p className='text-center text-3xl text-green-800 font-bold'>What other Ayurvedic Doctors are Saying</p>
                 <p className='text-center text-gray-700 mt-1'>Trusted by experts – Hear what Ayurvedic doctors say about Amrutam!</p>
@@ -598,6 +600,7 @@ function Home() {
                 </div>
             </div>
 
+            {/* ask question */}
             <div className='w-full bg-[#FFF6DD] p-3'>
                 <p className='text-green-800 text-3xl font-bold text-center mt-5'>Frequently Asked Questions</p>
                 <p className='mt-2 text-[18px] text-gray-800 text-center'>Find quick answers to common questions to help you navigate the app and its features easily.</p>
@@ -634,10 +637,12 @@ function Home() {
                 </div>
             </div>
 
+            {/* frame */}
             <div className='w-full bg-[#FFF6DD]'>
                 <img src={Frame2} />
             </div>
 
+            {/* enqueries */}
             <div className='w-full bg-[#FFF6DD] p-5 h-[100vh]'>
                 <p className='text-green-800 text-3xl font-bold text-center'>Let’s Connect</p>
                 <p className='mt-2 text-gray-900 text-[16px] text-center'>We’re here to help you on your wellness journey. Reach out to us for any questions, </p>
